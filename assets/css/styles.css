@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+@font-face {
+    font-family: "gilroy";
+    src: url(/assets/font-family/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "konexy";
+    src: url(/assets/font-family/KonexyPersonalUse.ttf);
+}
+
+.right-0{
+    right: 0;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.rotate-45 {
+    rotate: 45deg;
+}
+
+.rotate-135 {
+    rotate: 135deg;
+}
+
+.translate-icon {
+    transform: translate(-11px, 12px);
+}

@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vipe</title>
+    <link rel="stylesheet" href="/output.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="icon" href="/assets/images/v.webp">
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="WordPress Development Agency" />
+    <meta name="description"
+        content="Vipe Studio is a WordPress Agency for development - a long-term partner for any WordPress service. Websites and,online shops development, maintenance and customization is what we do best." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="WordPress Development Agency" />
+    <meta property="og:description"
+        content="Vipe Studio is a WordPress Agency for development - a long-term partner for any WordPress service. Websites and,online shops development, maintenance and customization is what we do best." />
+    <meta property="og:image" content="https://i.ibb.co/TgkCB4n/vipe.webp" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="WordPress Development Agency" />
+    <meta property="twitter:description"
+        content="Vipe Studio is a WordPress Agency for development - a long-term partner for any WordPress service. Websites and,online shops development, maintenance and customization is what we do best." />
+    <meta property="twitter:image" content="https://i.ibb.co/TgkCB4n/vipe.webp" />
+
+    <!-- Meta Tags Generated with https://metatags.io -->
+</head>
+
+<body class="overflow-hidden">
+    <!-- Preloader-->
+    <div id="preloader"
+        class="h-screen bg-black flex flex-col gap-4 justify-center items-center fixed top-0 left-0 w-full z-30 ">
+        <img class="w-[177px] h-[63px]" src="/assets/images/Logo.webp" alt="logo">
+        <div
+            class="loader w-[50px] h-[50px] relative border-[5px] border-solid border-[#555] border-t-[#f9f9f9] rounded-[50%] animate-spin">
+        </div>
+    </div>
+    <!-- back to top -->
+    <button id="top"
+        class="hidden bg-none border-none w-[40px] md:w-[50px] h-[40px] md:h-[50px] bottom-0 right-0 fixed z-[3]"
+        onclick="up()"><img class="w-100" src="/assets/images/backtotop.webp" alt="back to top icon"></button>
+    <!-- header -->
+    <header class="bg-black relative">
+        <div class="h-full min-h-[1080px] flex flex-col">
+            <nav class="max-w-[1344px] px-3 mx-auto h-[90px] flex items-center justify-between w-full">
+                <div class="flex items-center">
+                    <div class="min-[1060px]:mr-12 mr-5"><img class="w-[100px] h[50px] sm:w-[176px] sm:h-[62px]"
+                            src="/assets/images/Logo.webp" alt="logo"></div>
+                    <ul class="flex min-[1060px]:gap-5 gap-2">
+                        <li class="relative group cursor-pointer min-[992px]:inline-block hidden">
+                            <ul>
+                                <li
+                                    class="text-white font-gilroy text-base not-italic font-normal leading-[150%] flex items-center gap-[3px]">
+                                    WordPress
+                                    Solution <img
+                                        class="w-6 h-6 group-hover:rotate-180  transition-all duration-300 ease-linear"
+                                        src="/assets/images/down.webp" alt="down arrow"></li>
+                                <li
+                                    class="hidden z-[1] absolute bg-[#252525] min-w-[167px] group-hover:block text-center transition-all duration-300 ease-linear">
+                                    <ul>
+                                        <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                                href="#herosection">WordPress Development</a></li>
+                                        <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                                href="#herosection">WordPress Maintenance</a></li>
+                                        <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                                href="#herosection">Speed Optimization</a></li>
+                                        <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                                href="#herosection">and more ...</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="relative group cursor-pointer min-[992px]:inline-block hidden">
+                            <ul>
+                                <li
+                                    class="text-white font-gilroy text-base not-italic font-normal leading-[150%] flex items-center gap-[3px]">
+                                    Services<img
+                                        class="w-6 h-6 group-hover:rotate-180  transition-all duration-300 ease-linear"
+                                        src="/assets/images/down.webp" alt="down arrow"></li>
+                                <li
+                                    class="hidden z-[1] absolute bg-[#252525] min-w-[167px] group-hover:block text-center transition-all duration-300 ease-linear">
+                                    <ul>
+                                        <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                                href="#section1">WordPress Hosting</a></li>
+                                        <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                                href="#section1">CMS to WordPress</a></li>
+                                        <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                                href="#section1">Custom WordPress Theme</a></li>
+                                        <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                                href="#section1">and more ...</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="cursor-pointer hidden min-[1200px]:block"><a
+                                class="text-white font-gilroy text-base not-italic font-normal leading-[150%] relative after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-[50%] hover:after:w-full hover:after:left-0 after:transition-all after:duration-300 after:ease-linear"
+                                href="#section2">Portfolio</a></li>
+
+                        <li class="relative group cursor-pointer min-[992px]:inline-block hidden">
+                            <ul>
+                                <li
+                                    class="text-white font-gilroy text-base not-italic font-normal leading-[150%] flex items-center gap-[3px]">
+                                    About<img
+                                        class="w-6 h-6 group-hover:rotate-180  transition-all duration-300 ease-linear"
+                                        src="/assets/images/down.webp" alt="down arrow"></li>
+                                <li
+                                    class="hidden z-[1] absolute bg-[#252525] min-w-[167px] group-hover:block text-center transition-all duration-300 ease-linear">
+                                    <ul>
+                                        <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                                href="#section7">About Us</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li class="cursor-pointer hidden min-[1200px]:block"><a
+                                class="text-white font-gilroy text-base not-italic font-normal leading-[150%] relative after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-[50%] hover:after:w-full hover:after:left-0 after:transition-all after:duration-300 after:ease-linear"
+                                href="#end">Blog</a></li>
+                    </ul>
+                </div>
+
+                <div class="flex items-center">
+                    <ul class="flex items-center">
+                        <li
+                            class="text-white font-gilroy text-base not-italic font-normal leading-[150%] relative after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-[50%] hover:after:w-full hover:after:left-0 after:transition-all after:duration-300 after:ease-linear min-[1060px]:mr-9 mr-4 min-[670px]:block hidden">
+                            <a href="tel:1-888-266-6917">1 888 266-6917 <span class="font-inter">(<span
+                                        class="font-gilroy text-sm italic">eu<span
+                                            class="font-inter">?</span></span>)</span></a>
+                        </li>
+                        <li
+                            class="py-[10px] px-6 rounded-[80px] bg-[#6022EA] shadow-[0px_4px_20px_0px_rgba(96,34,234,0.2)] text-white font-gilroy text-lg not-italic font-semibold leading-[150%] border border-transparent hover:border-white transition-all duration-300 ease-linear cursor-pointer min-[670px]:block hidden">
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                    <div class="w-[1px] h-[51px] opacity-30 bg-[#888] mx-[10px]"></div>
+                    <div class="relative inline-block group cursor-pointer mr-2 min-[992px]:mr-0">
+                        <div class="flex items-center w-[86px] justify-between">
+                            <img class="w-6 h-6" src="/assets/images/globe.webp" alt="globe">
+                            <p class="text-white font-gilroy text-base not-italic font-normal leading-[150%]">Eng</p>
+                            <img class="w-6 h-6 group-hover:rotate-180  transition-all duration-300 ease-linear"
+                                src="/assets/images/down.webp" alt="down arrow">
+                        </div>
+                        <div
+                            class="hidden z-[1] absolute bg-[#252525] w-[65px] group-hover:block text-center transition-all duration-300 ease-linear">
+                            <div class="flex items-center w-full gap-[5px] py-1 hover:bg-gray-700">
+                                <img class="w-6 h-6" src="/assets/images/globe.webp" alt="globe">
+                                <p class="text-white font-gilroy text-base not-italic font-normal leading-[150%]">Hin
+                                </p>
+                            </div>
+                            <div class="flex items-center w-full gap-[5px] py-1 hover:bg-gray-700">
+                                <img class="w-6 h-6" src="/assets/images/globe.webp" alt="globe">
+                                <p class="text-white font-gilroy text-base not-italic font-normal leading-[150%]">Jpn
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- icon -->
+                    <div class="w-7 h-5 flex flex-col justify-between min-[992px]:hidden z-20 nav-icon"
+                        onclick="navbar()">
+                        <span class="w-full h-1 rounded bg-white span1 transition-all ease-linear duration-300"></span>
+                        <span class="w-full h-1 rounded bg-white span2 transition-all ease-linear duration-300"></span>
+                        <span class="w-full h-1 rounded bg-white span3 transition-all ease-linear duration-300"></span>
+                    </div>
+                </div>
+                <!-- view -->
+                <ul
+                    class="flex justify-center flex-col items-center fixed top-0 w-full md:w-[60%] h-full right-[-100%] z-10 view transition-all ease-linear duration-300 bg-gray-900 gap-6 min-[992px]:hidden">
+                    <li class="relative inline-block group cursor-pointer">
+                        <ul>
+                            <li class="text-white font-gilroy text-base not-italic font-normal leading-[150%] flex items-center gap-[3px]"
+                                onclick="navbar2()">
+                                WordPress
+                                Solution <img
+                                    class="w-6 h-6 group-hover:rotate-180  transition-all duration-300 ease-linear"
+                                    src="/assets/images/down.webp" alt="down arrow"></li>
+                            <li
+                                class="hidden z-[1] absolute bg-[#252525] min-w-[167px] group-hover:block text-center transition-all duration-300 ease-linear">
+                                <ul>
+                                    <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                            href="#herosection" onclick="navbar2()">WordPress Development</a></li>
+                                    <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                            href="#herosection" onclick="navbar2()">WordPress Maintenance</a></li>
+                                    <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                            href="#herosection" onclick="navbar2()">Speed Optimization</a></li>
+                                    <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                            href="#herosection" onclick="navbar2()">and more ...</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="relative inline-block group cursor-pointer">
+                        <ul>
+                            <li class="text-white font-gilroy text-base not-italic font-normal leading-[150%] flex items-center gap-[3px]"
+                                onclick="navbar2()">
+                                Services<img
+                                    class="w-6 h-6 group-hover:rotate-180  transition-all duration-300 ease-linear"
+                                    src="/assets/images/down.webp" alt="down arrow"></li>
+                            <li
+                                class="hidden z-[1] absolute bg-[#252525] min-w-[167px] group-hover:block text-center transition-all duration-300 ease-linear">
+                                <ul>
+                                    <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                            href="#section1" onclick="navbar2()">WordPress Hosting</a></li>
+                                    <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                            href="#section1" onclick="navbar2()">CMS to WordPress</a></li>
+                                    <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                            href="#section1" onclick="navbar2()">Custom WordPress Theme</a></li>
+                                    <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                            href="#section1" onclick="navbar2()">and more ...</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="cursor-pointer"><a
+                            class="text-white font-gilroy text-base not-italic font-normal leading-[150%] relative after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-[50%] hover:after:w-full hover:after:left-0 after:transition-all after:duration-300 after:ease-linear"
+                            href="#section2" onclick="navbar2()">Portfolio</a></li>
+
+                    <li class="relative inline-block group cursor-pointer">
+                        <ul>
+                            <li class="text-white font-gilroy text-base not-italic font-normal leading-[150%] flex items-center gap-[3px]"
+                                onclick="navbar2()">
+                                About<img
+                                    class="w-6 h-6 group-hover:rotate-180  transition-all duration-300 ease-linear"
+                                    src="/assets/images/down.webp" alt="down arrow"></li>
+                            <li
+                                class="hidden z-[1] absolute bg-[#252525] min-w-[167px] group-hover:block text-center transition-all duration-300 ease-linear">
+                                <ul>
+                                    <li><a class="text-white font-gilroy text-sm not-italic font-normal leading-normal py-2 block hover:bg-gray-700"
+                                            href="section7" onclick="navbar2()">About Us</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="cursor-pointer"><a
+                            class="text-white font-gilroy text-base not-italic font-normal leading-[150%] relative after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-[50%] hover:after:w-full hover:after:left-0 after:transition-all after:duration-300 after:ease-linear"
+                            href="#end" onclick="navbar2()">Blog</a></li>
+
+                    <li
+                        class="text-white font-gilroy text-base not-italic font-normal leading-[150%] relative after:absolute after:w-0 after:h-[1px] after:bg-white after:bottom-0 after:left-[50%] hover:after:w-full hover:after:left-0 after:transition-all after:duration-300 after:ease-linear min-[1060px]:mr-9 mr-4 min-[670px]:hidden">
+                        <a href="tel:1-888-266-6917" onclick="navbar2()">1 888 266-6917 <span class="font-inter">(<span
+                                    class="font-gilroy text-sm italic">eu<span
+                                        class="font-inter">?</span></span>)</span></a>
+                    </li>
+                    <li
+                        class="py-[10px] px-6 rounded-[80px] bg-[#6022EA] shadow-[0px_4px_20px_0px_rgba(96,34,234,0.2)] text-white font-gilroy text-lg not-italic font-semibold leading-[150%] border border-transparent hover:border-white transition-all duration-300 ease-linear cursor-pointer min-[670px]:hidden">
+                        <a href="" onclick="navbar2()">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- hero section -->
+            <div id="herosection" class="grow">
+                <div
+                    class="max-w-[1344px] w-full min-[1200px]:min-h-[757px] px-3 mx-auto flex flex-col min-[1200px]:flex-row items-center min-[1200px]:translate-y-[-4%]">
+                    <div
+                        class="flex flex-col items-center min-[1200px]:items-start w-full min-[1200px]:w-1/2 my-6 min-[1200px]:my-0">
+                        <h1
+                            class="max-w-[646px] text-white font-konexy text-4xl sm:text-6xl min-[1260px]:text-7xl not-italic font-normal leading-[106%] relative after:absolute after:w-[5px] sm:after:h-[201px] after:h-full after:bg-[#6022EA] after:translate-y-1/2 min-[1200px]:after:start-[-11px] sm:after:start-[9%] after:start-[-2%] after:bottom-[50%] mb-4 sm:mb-[30px] text-center min-[1200px]:text-left">
+                            WordPress Development Agency</h1>
+                        <p
+                            class="text-white font-gilroy text-2xl not-italic font-bold leading-[121%] mb-4 sm:mb-[22px]">
+                            for
+                            Enterprise + Friendly Team</p>
+                        <p
+                            class="max-w-[592px] text-white font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 mb-4 sm:mb-[27px]">
+                            Vipe Studio is a WordPress Agency for development - a long-term partner for any WordPress
+                            service. Websites and,online
+                            shops development, maintenance and customization is what we do best.</p>
+                        <div class="flex gap-[34px] items-center">
+                            <button
+                                class="rounded-[80px] bg-[#6022EA] shadow-[0px_4px_20px_0px_rgba(96,34,234,0.2)] text-white font-gilroy text-base not-italic font-semibold leading-[150%] border border-transparent hover:border-white transition-all duration-300 ease-linear cursor-pointer w-[168px] h-12">Get
+                                Started</button>
+                            <div class="flex gap-[14px] items-center group cursor-pointer">
+                                <img class="w-8 h-8 group-hover:scale-105 transition-all duration-300 ease-linear"
+                                    src="/assets/images/play.webp" alt="play button">
+                                <p
+                                    class="text-white font-gilroy text-base not-italic font-normal leading-[150%] opacity-70">
+                                    What is Vipe? (1min)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex justify-center w-full min-[1200px]:w-1/2 relative my-6 min-[1200px]:my-0">
+                        <img class="w-full md:w-[761px] md:h-[500px] rounded-[20px] relative min-[1630px]:right-[-23%] z-[1]"
+                            src="/assets/images/hero-sectionimg1.webp" alt="staff group photo">
+                        <!-- ellipse-top -->
+                        <div
+                            class="hidden sm:block w-[317px] h-[272px] absolute blur-[137px] rounded-[50%] top-[-20%] right-[0%] min-[1630px]:right-[-22%] min-[1850px]:right-[-39%]">
+                            <div class="w-[187px] h-[187px] bg-[#FA00FF] rounded-[50%] translate-x-[69%] translate-y-0">
+                            </div>
+                            <div
+                                class="w-[187px] h-[187px] bg-[#6022EA] rounded-[50%] translate-x-0 translate-y-[-55%]">
+                            </div>
+                        </div>
+                        <!-- ellipse-bottom -->
+                        <div
+                            class="hidden sm:block w-[317px] h-[272px] absolute blur-[137px] rounded-[50%] bottom-[-20%] left-0">
+                            <div class="w-[187px] h-[187px] bg-[#FA00FF] rounded-[50%] translate-x-[69%] translate-y-0">
+                            </div>
+                            <div
+                                class="w-[187px] h-[187px] bg-[#6022EA] rounded-[50%] translate-x-0 translate-y-[-55%]">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- layer -->
+                <div class="w-full min-h-[233px] bg-[rgba(255,255,255,0.05)]">
+                    <div
+                        class="py-6 min-[1100px]:py-0 max-w-[1344px] w-full min-h-[233px] px-3 mx-auto flex items-center flex-col min-[1100px]:flex-row">
+                        <div
+                            class="min-[1100px]:w-1/2 w-full flex flex-col items-center min-[1100px]:items-start mb-6 min-[1100px]:mb-0">
+                            <h2
+                                class="text-white font-konexy text-2xl sm:text-4xl not-italic font-normal leading-normal mb-4">
+                                Tell us
+                                more....</h2>
+                            <p
+                                class="max-w-[573px] text-white font-gilroy text-base not-italic font-normal leading-[150%]">
+                                Lectus vitae est ultrices sed. Sit aliquam commodo hac donec augue in quis. Magna vel
+                                orci sem
+                                neque fringilla et lectus
+                                laoreet.</p>
+                        </div>
+                        <div class="min-[1100px]:w-1/2 w-full flex flex-col min-[1100px]:items-end items-center">
+                            <div
+                                class="max-w-[537px] w-full h-16 rounded-[80px] border border-solid border-[rgba(255,255,255,0.1)] bg-[rgba(255,255,255,0.1)] shadow-[0_4px_10px_0_rgba(0,0,0,0.25)] px-8 py-5 flex mb-[13px]">
+                                <form class="w-[95%]">
+                                    <input
+                                        class="w-full text-white font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 bg-inherit"
+                                        name="search" placeholder="What do you need assistance with?">
+                                </form>
+                                <img class="w-6 h-6" src="/assets/images/search.webp" alt="search icon">
+                            </div>
+                            <div class="flex justify-between max-w-[537px] w-full">
+                                <div class="flex items-center gap-[7px]">
+                                    <img class="w-4 h-[18px]" src="/assets/images/reload.webp" alt="reload">
+                                    <p class="text-white font-gilroy text-base not-italic font-normal leading-[150%]">or
+                                        send us
+                                        an inquire?</p>
+                                </div>
+                                <p class="text-white font-gilroy text-base not-italic font-normal leading-[150%]">Learn
+                                    more
+                                    about...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- section1 -->
+        <div id="section1" class="bg-[#F6F6F6]">
+            <div
+                class="max-w-[1344px] mx-auto px-3 flex flex-col w-full justify-center h-full sm:min-h-[386px] py-6 sm:py-0">
+                <h2
+                    class="text-black font-konexy text-3xl text-center min-[450px]:text-start min-[450px]:text-5xl not-italic font-normal leading-normal">
+                    Featured on</h2>
+                <div class="mt-5 sm:mt-[70px] flex items-center flex-wrap gap-y-4">
+                    <div
+                        class="w-full min-[400px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.6%] flex sm:justify-start justify-center">
+                        <img class="w-[171px] h-[27px]" src="/assets/images/yahoonews.webp" alt="yahoonews">
+                    </div>
+                    <div class="w-full min-[400px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.6%] flex justify-center">
+                        <img class="w-[171px] h-[63px]" src="/assets/images/yahoofinance.webp" alt="yahoofinance">
+                    </div>
+                    <div class="w-full min-[400px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.6%] flex justify-center">
+                        <img class="w-[171px] h-[27px]" src="/assets/images/yahoonews.webp" alt="yahoonews">
+                    </div>
+                    <div
+                        class="w-full min-[400px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.6%] flex min-[1200px]:justify-center sm:justify-end justify-center">
+                        <img class="w-[171px] h-[39px]" src="/assets/images/topics.webp" alt="trendingtopics">
+                    </div>
+                    <div
+                        class="w-full min-[400px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.6%] flex min-[1200px]:justify-center sm:justify-end justify-center">
+                        <img class="w-[171px] h-[32px]" src="/assets/images/yahoolife.webp" alt="yahoolife">
+                    </div>
+                    <div
+                        class="w-full min-[400px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.6%] flex sm:justify-end justify-center">
+                        <img class="w-[171px] h-[39px]" src="/assets/images/topics.webp" alt="trendingtopics">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section2 -->
+        <div id="section2" class="bg-[#FEFEFE]">
+            <div
+                class="sm:min-h-[762px] max-w-[1344px] w-full px-3 mx-auto flex flex-col justify-center py-6 min-[1200px]::py-0">
+                <h2
+                    class="text-black font-konexy text-3xl text-center sm:text-start sm:text-5xl not-italic font-normal leading-normal mb-4 sm:mb-[52px]">
+                    Integer et
+                    nisl non</h2>
+                <div class="flex flex-wrap sm:gap-y-12 gap-y-6">
+                    <div
+                        class="w-full min-[900px]:w-[50%] min-[1200px]:w-[33.33%] flex min-[1200px]:justify-start justify-center">
+                        <div
+                            class="min-[420px]:pt-[60px] pt-[30px] min-[420px]:pr-[38px] pr-[19px] min-[420px]:pb-[38px] pb-[19px] min-[420px]:pl-[38px] pl-[19px] rounded-[16px] border border-solid border-[rgba(0,0,0,0.10)] bg-white flex flex-col items-center min-[1300px]:w-[418px] min-[1200px]:w-[96%] min-[420px]:w-[418px] min-[420px]:h-[426px] w-full hover:border-transparent hover:shadow-[0_20px_60.57143px_0_#E5E9F6] transition-all duration-300 ease-linear cursor-pointer">
+                            <img class="w-[70px] h-[70px] mb-10" src="/assets/images/section2img1.webp"
+                                alt="form photo">
+                            <h3
+                                class="text-[#0D0D0D] text-center font-inter text-2xl not-italic font-semibold leading-[130%] mb-[15px]">
+                                Enterprise WordPress Solutions</h3>
+                            <p
+                                class="text-black text-center font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 mb-5">
+                                Pretium, a et sapien non nunc libero. Id dolor sed quis convallis turpis purus feugiat
+                                nibh eu. Auctor cras hac ac,
+                                sociis diam montes, turpis commodo elit.</p>
+                            <p class="text-[#6022EA] font-gilroy text-base not-italic font-semibold leading-[150%]">
+                                Learn More</p>
+                        </div>
+                    </div>
+                    <div class="w-full min-[900px]:w-[50%] min-[1200px]:w-[33.33%] flex justify-center">
+                        <div
+                            class="min-[420px]:pt-[60px] pt-[30px] min-[420px]:pr-[38px] pr-[19px] min-[420px]:pb-[38px] pb-[19px] min-[420px]:pl-[38px] pl-[19px] rounded-[16px] border border-solid border-[rgba(0,0,0,0.10)] bg-white flex flex-col items-center min-[1300px]:w-[418px] min-[1200px]:w-[96%] min-[420px]:w-[418px] min-[420px]:h-[426px] w-full hover:border-transparent hover:shadow-[0_20px_60.57143px_0_#E5E9F6] transition-all duration-300 ease-linear cursor-pointer">
+                            <img class="w-[70px] h-[70px] mb-10" src="/assets/images/section2img2.webp" alt="cube box">
+                            <h3
+                                class="text-[#0D0D0D] text-center font-inter text-2xl not-italic font-semibold leading-[130%] mb-[15px]">
+                                Small to Mid Size Business Development</h3>
+                            <p
+                                class="text-black text-center font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 mb-5">
+                                Et nunc fermentum id amet tempus, elementum. Eget ac ultrices tortor, mattis amet
+                                blandit aenean amet. Massa diam lacus,
+                                aliquam neque, cursus.</p>
+                            <p class="text-[#6022EA] font-gilroy text-base not-italic font-semibold leading-[150%]">
+                                Learn More</p>
+                        </div>
+                    </div>
+                    <div class="w-[100%] min-[1200px]:w-[33.33%] flex min-[1200px]:justify-end justify-center">
+                        <div
+                            class="min-[420px]:pt-[60px] pt-[30px] min-[420px]:pr-[38px] pr-[19px] min-[420px]:pb-[38px] pb-[19px] min-[420px]:pl-[38px] pl-[19px] rounded-[16px] border border-solid border-[rgba(0,0,0,0.10)] bg-white flex flex-col items-center min-[1300px]:w-[418px] min-[1200px]:w-[96%] min-[420px]:w-[418px] min-[420px]:h-[426px] w-full hover:border-transparent hover:shadow-[0_20px_60.57143px_0_#E5E9F6] transition-all duration-300 ease-linear cursor-pointer">
+                            <img class="w-[70px] h-[70px] mb-10" src="/assets/images/section2img3.webp"
+                                alt="call center boy">
+                            <h3
+                                class="text-[#0D0D0D] text-center font-inter text-2xl not-italic font-semibold leading-[130%] mb-[15px]">
+                                Support & Maintenance</h3>
+                            <p
+                                class="text-black text-center font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 mb-5">
+                                Ac donec ipsum fringilla tortor, consectetur etiam sociis amet quis. Viverra volutpat
+                                pretium non in fusce tellus sed
+                                urna. Pharetra ullamcorper et donec aliquam.</p>
+                            <p class="text-[#6022EA] font-gilroy text-base not-italic font-semibold leading-[150%]">
+                                Learn More</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section3 -->
+        <div class="min-h-[943px] bg-black flex items-center">
+            <div class="max-w-[1344px] mx-auto px-3 py-6 min-[992px]:py-0 relative w-full">
+                <div class="min-h-[423px] flex flex-wrap sm:gap-y-6 gap-y-4 mb-6 lg:mb-0">
+                    <div class="w-full lg:w-[33.33%]">
+                        <h2
+                            class="text-white font-konexy text-3xl sm:text-[40px] not-italic font-normal leading-normal text-center lg:text-start">
+                            All Vipe
+                            Studio WordPress services include:</h2>
+                    </div>
+                    <div class="w-full sm:w-[50%] lg:w-[33.33%] flex lg:justify-end sm:justify-center justify-start">
+                        <div>
+                            <h3
+                                class="text-white font-gilroy text-2xl not-italic font-semibold leading-[130%] mb-[23px]">
+                                By
+                                Industry</h3>
+                            <ul class="flex flex-col gap-y-3">
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Lorem in elementum pellentesque</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Molestie cursus praesent mi</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Leo sed viverra cras</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Laoreet feugiat ut at</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Risus aliquam molestie viverra</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Diam enim pulvinar velit</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-[50%] lg:w-[33.33%] flex lg:justify-end sm:justify-center justify-start">
+                        <div>
+                            <h3
+                                class="text-white font-gilroy text-2xl not-italic font-semibold leading-[130%] mb-[23px]">
+                                By Services</h3>
+                            <ul class="flex flex-col gap-y-3">
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Accumsan, dui a semper</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Interdum malesuada vulputate neque</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Nullam non a, morbi</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Arcu morbi leo eu</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Viverra venenatis, in ornare</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick.webp')] bg-left-bottom bg-no-repeat pl-8 text-white font-gilroy text-base not-italic font-normal leading-[158%]">
+                                    Erat id aliquam habitant</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="min-h-[358px] w-full bg-black rounded-[26px] flex items-center px-8 flex-wrap sm:gap-y-6 gap-y-4 relative z-[1] py-7 min-[1100px]:py-0">
+                    <div class="w-full min-[1100px]:w-[33.33%] flex min-[1100px]:justify-start justify-center">
+                        <div class="flex flex-col items-center">
+                            <h2
+                                class="text-white font-konexy text-3xl sm:text-[35px] not-italic font-normal text-center min-[1100px]:text-start min-[1100px]:max-w-[324px] mb-[38px]">
+                                Not Sure which service you need yet?</h2>
+                            <button
+                                class="py-[10px] px-6 rounded-[80px] bg-[#6022EA] text-white font-gilroy text-sm min-[330px]:text-base not-italic font-semibold leading-[150%] border border-transparent hover:border-white transition-all duration-300 ease-linear cursor-pointer max-w-[242px] h-[44px] flex items-center">Schedule
+                                An Appointment</button>
+                        </div>
+                    </div>
+                    <div
+                        class="w-full md:w-[50%] min-[1100px]:w-[33.33%] flex min-[1100px]:justify-end md:justify-center justify-start">
+                        <div>
+                            <h2
+                                class="text-white font-gilroy text-2xl not-italic font-bold leading-[130%] max-w-[386px] mb-[25px]">
+                                20-m free consultation that will help us identifyif you need</h2>
+                            <ul class="flex flex-col gap-y-[15px]">
+                                <li
+                                    class="bg-[url('/assets/images/tick2.webp')] bg-left bg-no-repeat pl-[30px] text-white font-gilroy text-base not-italic font-normal leading-[150%]">
+                                    Technical Description & Discovery</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick2.webp')] bg-left bg-no-repeat pl-[30px] text-white font-gilroy text-base not-italic font-normal leading-[150%]">
+                                    Custom WordPress Development</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick2.webp')] bg-left bg-no-repeat pl-[30px] text-white font-gilroy text-base not-italic font-normal leading-[150%]">
+                                    Support & Maintenance</li>
+                                <li
+                                    class="bg-[url('/assets/images/tick2.webp')] bg-left bg-no-repeat pl-[30px] text-white font-gilroy text-base not-italic font-normal leading-[150%]">
+                                    Other WordPress Service</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="w-full md:w-[50%] min-[1100px]:w-[33.33%] flex min-[1100px]:justify-end justify-center">
+                        <div><img class="w-full min-[430px]:w-[331px] min-[430px]:h-[304px] rounded-[24px]"
+                                src="/assets/images/section3girl.webp" alt="a girl"></div>
+                    </div>
+                </div>
+                <!--section3-ellipse1 -->
+                <div
+                    class="absolute w-[245px] h-[294px] blur-[137px] bottom-[40%] md:bottom-[35%] min-[1100px]:bottom-[18%] left-[-5%]">
+                    <div class="w-[163px] h-[163px] bg-[#6022EA] rounded-[50%]"></div>
+                    <div class="w-[163px] h-[163px] bg-[#FA00FF] rounded-[50%] translate-x-[50%] translate-y-[-20%]">
+                    </div>
+                </div>
+                <!-- section3-ellipse2 -->
+                <div class="absolute w-[295px] h-[253px] blur-[137px] bottom-0 min-[1500px]:right-[-5%] right-0">
+                    <div class="w-[174px] h-[174px] bg-[#FA00FF] rounded-[50%] translate-x-[69%] translate-y-[1%]">
+                    </div>
+                    <div class="w-[174px] h-[174px] bg-[#6022EA] rounded-[50%] translate-y-[-55%]"></div>
+                </div>
+            </div>
+        </div>
+        <!-- section4 -->
+        <div class="min-h-[416px] bg-[#F6F6F6] flex items-center">
+            <div class="max-w-[1344px] mx-auto px-3 w-full my-6 sm:my-0">
+                <h2
+                    class="max-w-[631px] text-black font-konexy text-4xl sm:text-5xl not-italic font-normal leading-[1.2] mb-4 sm:mb-5">
+                    Long Term WordPress Partner</h2>
+                <p
+                    class="max-w-[693px] text-black font-gilroy text-base not-italic font-normal leading-[150%] opacity-80 mb-4 sm:mb-[33px]">
+                    Our motto is the long-term partnership - we will not only develop your perfect website, but will be
+                    behind you through
+                    the whole process. They already trusted us:</p>
+                <div class="flex items-center flex-wrap gap-y-6">
+                    <div
+                        class="w-full min-[450px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.66%] flex justify-center sm:justify-start">
+                        <img class="w-[180px] h-[40px]" src="/assets/images/propy.webp" alt="propy">
+                    </div>
+                    <div class="w-full min-[450px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.66%] flex justify-center">
+                        <img class="w-[162px] h-[56px]" src="/assets/images/ciela.webp" alt="ciela">
+                    </div>
+                    <div class="w-full min-[450px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.66%] flex justify-center">
+                        <img class="w-[191px] h-[57px]" src="/assets/images/revuele.webp" alt="revuele">
+                    </div>
+                    <div
+                        class="w-full min-[450px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.66%] flex min-[1200px]:justify-center justify-center sm:justify-end">
+                        <img class="w-[162px] h-[56px]" src="/assets/images/ciela.webp" alt="ciela">
+                    </div>
+                    <div
+                        class="w-full min-[450px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.66%] flex min-[1200px]:justify-center justify-center sm:justify-end">
+                        <img class="w-[170px] h-[65px]" src="/assets/images/spark.webp" alt="spark">
+                    </div>
+                    <div
+                        class="w-full min-[450px]:w-[50%] sm:w-[33.33%] min-[1200px]:w-[16.66%] flex justify-center sm:justify-end">
+                        <img class="w-[162px] h-[56px]" src="/assets/images/ciela.webp" alt="ciela">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section5 -->
+        <div class="min-h-[717px] bg-[#FEFEFE]">
+            <div
+                class="max-w-[1344px] mx-auto px-3 w-full flex items-center min-[1200px]:mt-[67px] my-6 min-[1200px]:flex-row flex-col gap-y-6">
+                <div class="w-full min-[1200px]:w-[50%] flex justify-center"><img
+                        class="sm:w-[610px] w-full sm:h-[539px] min-[1200px]:translate-x-[-3%]"
+                        src="/assets/images/section5img.webp" alt="male photos"></div>
+                <div
+                    class="w-full min-[1200px]:w-[50%] min-[1200px]:pl-2 flex flex-col items-center min-[1200px]:items-start">
+                    <h2
+                        class="max-w-[670px] text-[#6022EA] font-konexy text-3xl sm:text-5xl not-italic font-normal leading-normal mb-3 text-center min-[1200px]:text-start">
+                        Agile WordPress <span class="text-black">Development Project management</span></h2>
+                    <p
+                        class="max-w-[572px] text-black font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 sm:mb-8 mb-4">
+                        Suspendisse consequat egestas arcu et et. Viverra quis euismod neque luctus bibendum. Fringilla
+                        in nibh fringilla
+                        vulputate in. Elit, ultricies vitae pulvinar arcu dignissim ac non rutrum. Lacus tortor
+                        sollicitudin risus eget euismod
+                        in bibendum turpis.</p>
+                    <button
+                        class="w-[103px] h-[44px] rounded-[80px] bg-[#6022EA] shadow-[0px_4px_20px_0px_rgba(96,34,234,0.20)] text-white font-gilroy text-base not-italic font-semibold leading-[150%] border border-transparent hover:border-white transition-all duration-300 ease-linear cursor-pointer">Explore</button>
+                </div>
+            </div>
+        </div>
+        <!-- section6 -->
+        <div class="min-h-[478px] bg-[#F6F6F6] flex items-center">
+            <div
+                class="max-w-[1344px] w-full mx-auto px-3 flex flex-wrap items-center min-[1200px]:flex-row flex-col min-[1200px]:py-0 py-6 gap-y-6">
+                <div class="min-[1200px]:w-[50%] w-full flex flex-col items-center min-[1200px]:items-start">
+                    <h2
+                        class="text-black font-konexy text-3xl sm:text-5xl not-italic font-normal leading-normal mb-3 text-center min-[1200px]:text-start">
+                        Team Full of Stars</h2>
+                    <p
+                        class="max-w-[476px] text-black font-gilroy text-base not-italic font-normal leading-[150%] mb-8 text-center min-[1200px]:text-start">
+                        Suspendisse consequat egestas arcu et et. Viverra quis euismod neque luctus bibendum. Fringilla
+                        in nibh fringilla
+                        vulputate in. Elit, ultricies vitae pulvinar arcu dignissim ac non rutrum. Lacus tortor
+                        sollicitudin risus eget euismod
+                        in bibendum turpis.</p>
+                    <button
+                        class="w-[103px] h-[44px] rounded-[80px] bg-[#6022EA] shadow-[0px_4px_20px_0px_rgba(96,34,234,0.20)] text-white font-gilroy text-base not-italic font-semibold leading-[150%] border border-transparent hover:border-white transition-all duration-300 ease-linear cursor-pointer">Explore</button>
+                </div>
+                <div class="min-[1200px]:w-[50%] w-full flex justify-center">
+                    <img class="min-[710px]:w-[686px] w-full min-[710px]:h-[458px] rounded-[32px] shadow-[0px_20px_50px_0px_#E5E9F6] min-[1200px]:translate-x-[-1%] min-[1200px]:translate-y-[18%]"
+                        src="/assets/images/section6img.webp" alt="people smiling">
+                </div>
+            </div>
+        </div>
+        <!-- section7 -->
+        <div id="section7" class="min-h-[1002px] bg-[#FEFEFE] flex flex-col justify-center">
+            <div
+                class="max-w-[1344px] mx-auto px-3 flex items-center w-full min-[1200px]:flex-row flex-col-reverse gap-y-6 mt-6 min-[1200px]:mt-0">
+                <div class="w-full min-[1200px]:w-[35%] flex justify-center"><img
+                        class="min-[1200px]:w-[96%] xl:w-[413px] xl:h-[467px] min-[450px]:w-[413px] min-[450px]:h-[467px] w-full"
+                        src="/assets/images/robot.webp" alt="robot"></div>
+                <div class="w-full min-[1200px]:w-[65%] flex flex-col items-center min-[1200px]:items-start">
+                    <p class="text-[#868687] font-gilroy text-base not-italic font-normal leading-normal">HAVE YOU SEEN
+                        OUR MASCOT?</p>
+                    <h2
+                        class="text-black font-konexy text-4xl sm:text-5xl not-italic font-normal mb-5 text-center min-[1200px]:text-start">
+                        Success Guides</h2>
+                    <div class="flex min-[1200px]:justify-start justify-center flex-wrap gap-[10px] mb-[33px]">
+                        <button
+                            class="w-[119px] h-[40px] rounded-[80px] border border-solid border-[#6022EA] bg-white text-[#6022EA] font-gilroy text-base not-italic font-normal leading-[150%] hover:border-transparent hover:bg-[#6022EA] hover:text-white hover:font-semibold transition-all ease-linear duration-300 ">Category-1</button>
+                        <button
+                            class="w-[119px] h-[40px] rounded-[80px] border border-solid border-[#6022EA] bg-white text-[#6022EA] font-gilroy text-base not-italic font-normal leading-[150%] hover:border-transparent hover:bg-[#6022EA] hover:text-white hover:font-semibold transition-all ease-linear duration-300 ">Category-2</button><button
+                            class="w-[119px] h-[40px] rounded-[80px] border border-solid border-[#6022EA] bg-white text-[#6022EA] font-gilroy text-base not-italic font-normal leading-[150%] hover:border-transparent hover:bg-[#6022EA] hover:text-white hover:font-semibold transition-all ease-linear duration-300 ">Category-3</button><button
+                            class="w-[119px] h-[40px] rounded-[80px] border border-solid border-[#6022EA] bg-white text-[#6022EA] font-gilroy text-base not-italic font-normal leading-[150%] hover:border-transparent hover:bg-[#6022EA] hover:text-white hover:font-semibold transition-all ease-linear duration-300 ">Category-4</button>
+                    </div>
+                    <div class="flex w-full flex-wrap gap-y-6">
+                        <div
+                            class="min-[900px]:w-[33.33%] sm:w-[50%] w-full flex justify-center min-[1200px]:justify-start">
+                            <div
+                                class="min-[1200px]:w-[95%] min-[1350px]:w-[274px] w-[274px] h-[352px] rounded-2xl border border-solid border-[rgba(0,0,0,0.11)] bg-white hover:shadow-[12.11429px_48.45714px_60.57143px_0px_rgba(229,233,246,0.40)] pt-[15px] pr-[14px] pb-[14px] pl-[17px] transition-all ease-linear duration-300">
+                                <img class="w-[243px] h-[161px] rounded-2xl mb-[17px]"
+                                    src="/assets/images/section7img.webp" alt="vipe advertisement">
+                                <p
+                                    class="text-[#0D0D0D] font-gilroy text-2xl not-italic font-semibold leading-[130%] mb-[10px]">
+                                    Sit diam metus</p>
+                                <p
+                                    class="text-black font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 mb-2">
+                                    Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
+                                <p class="text-[#6022EA] font-gilroy text-base not-italic font-semibold leading-[150%]">
+                                    Read
+                                    More....</p>
+                            </div>
+                        </div>
+                        <div class="min-[900px]:w-[33.33%] sm:w-[50%] w-full flex justify-center">
+                            <div
+                                class="min-[1200px]:w-[95%] min-[1350px]:w-[274px] w-[274px] h-[352px] rounded-2xl border border-solid border-[rgba(0,0,0,0.11)] bg-white hover:shadow-[12.11429px_48.45714px_60.57143px_0px_rgba(229,233,246,0.40)] pt-[15px] pr-[14px] pb-[14px] pl-[17px] transition-all ease-linear duration-300">
+                                <img class="w-[243px] h-[161px] rounded-2xl mb-[17px]"
+                                    src="/assets/images/section7img.webp" alt="vipe advertisement">
+                                <p
+                                    class="text-[#0D0D0D] font-gilroy text-2xl not-italic font-semibold leading-[130%] mb-[10px]">
+                                    Sit diam metus</p>
+                                <p
+                                    class="text-black font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 mb-2">
+                                    Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
+                                <p class="text-[#6022EA] font-gilroy text-base not-italic font-semibold leading-[150%]">
+                                    Read
+                                    More....</p>
+                            </div>
+                        </div>
+                        <div class="min-[900px]:w-[33.33%] w-full flex justify-center min-[1200px]:justify-end">
+                            <div
+                                class="min-[1200px]:w-[95%] min-[1350px]:w-[274px] w-[274px] h-[352px] rounded-2xl border border-solid border-[rgba(0,0,0,0.11)] bg-white hover:shadow-[12.11429px_48.45714px_60.57143px_0px_rgba(229,233,246,0.40)] pt-[15px] pr-[14px] pb-[14px] pl-[17px] transition-all ease-linear duration-300">
+                                <img class="w-[243px] h-[161px] rounded-2xl mb-[17px]"
+                                    src="/assets/images/section7img.webp" alt="vipe advertisement">
+                                <p
+                                    class="text-[#0D0D0D] font-gilroy text-2xl not-italic font-semibold leading-[130%] mb-[10px]">
+                                    Sit diam metus</p>
+                                <p
+                                    class="text-black font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 mb-2">
+                                    Arcu amet, consectetur vel pellentesque mattis ipsum sed mattis sed.</p>
+                                <p class="text-[#6022EA] font-gilroy text-base not-italic font-semibold leading-[150%]">
+                                    Read
+                                    More....</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="max-w-[1344px] mx-auto px-3 w-full min-[1200px]:translate-y-[76%] translate-y-[20%]">
+                <div
+                    class="w-full min-h-[197px] rounded-[17px] bg-gradient-to-r from-[#5F21E9] from-[60.06%] to-[#FA00FF] to-[103.73%] shadow-[0px_20px_50px_0px_rgba(39,0,124,0.50)] min-[700px]:pl-11 min-[700px]:pr-[52px] p-3 flex items-center mt-6 flex-wrap gap-y-4">
+                    <div class="min-[700px]:w-[50%] w-full">
+                        <h2
+                            class="text-white font-konexy text-5xl not-italic font-normal leading-normal text-center min-[700px]:text-start mb-2">
+                            Have you</h2>
+                        <p
+                            class="text-white font-gilroy text-2xl not-italic font-semibold leading-[130%] text-center min-[700px]:text-start">
+                            read our study about Speed and Performance in WordPress?</p>
+                    </div>
+                    <div class="min-[700px]:w-[50%] w-full flex min-[700px]:justify-end justify-center">
+                        <button
+                            class="rounded-[137px] bg-white w-[191px] h-[57px] text-[#6022EA] font-inter text-[19px] not-italic font-semibold leading-[150%] border border-transparent border-solid hover:border-black transition-all duration-300 ease-linear">Check
+                            It Out</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer id="end" class="min-h-[698px] bg-black">
+        <div class="max-w-[1344px] mx-auto px-3 w-full">
+            <div
+                class="flex sm:justify-between sm:items-end min-h-[250px] sm:pb-12 sm:flex-row flex-col justify-end items-center mb-6 sm:mb-0">
+                <div class="mb-4 sm:mb-0"><img class="w-[176px] h-[62px]" src="/assets/images/Logo.webp" alt="logo">
+                </div>
+                <div>
+                    <div
+                        class="w-[310px] min-[400px]:w-[381px] h-[43px] rounded-[80px] bg-white px-6 py-3 flex items-center">
+                        <form class="w-[95%]">
+                            <input
+                                class="w-full text-[#313131] font-gilroy text-base not-italic font-normal leading-[150%] opacity-70 bg-inherit"
+                                name="search" placeholder="Search here....">
+                        </form>
+                        <img class="w-[19px] h-[19px]" src="/assets/images/footersearchicon.webp" alt="search icon">
+                    </div>
+                </div>
+            </div>
+            <div class="min-h-[400px] flex flex-wrap gap-y-6">
+                <div
+                    class="w-full min-[576px]:w-1/2 lg:w-1/4 flex lg:justify-start min-[576px]:justify-center justify-start">
+                    <div>
+                        <ul>
+                            <li class="text-white font-gilroy text-base not-italic font-normal leading-[150%] mb-4">
+                                Services
+                            </li>
+                            <li>
+                                <ul class="flex flex-col gap-y-[13px]">
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#herosection">WordPress Development</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#herosection">WooCommerce Development</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#herosection">WordPress Maintenance</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#herosection">Speed Optimization</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#herosection">Dedicated WordPress Developer</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#herosection">Headless WordPress Development</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#herosection">White Label Development</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-full min-[576px]:w-1/2 lg:w-1/4 flex min-[576px]:justify-center justify-start">
+                    <div>
+                        <ul>
+                            <li class="text-white font-gilroy text-base not-italic font-normal leading-[150%] mb-4">
+                                Services
+                            </li>
+                            <li>
+                                <ul class="flex flex-col gap-y-[13px]">
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#section1">WordPress Hosting</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#section1">PSD, XD, Figma to WordPress Conversion</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#section1">Custom WordPress Theme</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#section1">Custom WordPress Plugins</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#section1">CMS to WordPress</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/footerarrow.webp')] bg-left-bottom bg-no-repeat pl-[22px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="#section1">WordPress Malware Removal</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="w-full min-[576px]:w-1/2 lg:w-1/4 flex min-[576px]:justify-center justify-start">
+                    <div>
+                        <ul>
+                            <li class="text-white font-gilroy text-base not-italic font-normal leading-[150%] mb-4">
+                                Latest Articles
+                            </li>
+                            <li>
+                                <ul class="flex flex-col gap-y-[21px]">
+                                    <li
+                                        class="text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold max-w-[248px]">
+                                        <a href="#">7 WordPress Plugins to Create an Effective Newsletter 03.01.2022</a>
+                                    </li>
+                                    <li
+                                        class="text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold max-w-[248px]">
+                                        <a href="#">What's the Perfect Blog Post Length for Your WordPress Site's SEO?
+                                            02.01.2022</a>
+                                    </li>
+                                    <li
+                                        class="text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold max-w-[248px]">
+                                        <a href="#">5 Reasons the Future of WordPress Is Headless 01.01.2022</a>
+                                    </li>
+                                    <li
+                                        class="text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold max-w-[248px]">
+                                        <a href="#">Viptor Says: Vipe Studio's WordPress Developers Wrap Up the
+                                            Amazingly Successful 2021 30.12.2021</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div
+                    class="w-full min-[576px]:w-1/2 lg:w-1/4 flex lg:justify-end min-[576px]:justify-center justify-start">
+                    <div>
+                        <ul>
+                            <li class="text-white font-gilroy text-base not-italic font-normal leading-[150%] mb-4">
+                                Contact
+                            </li>
+                            <li>
+                                <ul class="flex flex-col gap-y-[13px]">
+                                    <li
+                                        class="bg-[url('/assets/images/telephone.webp')] bg-left bg-no-repeat pl-[34px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="tel:+359-988-993-128">EU: +359 988 993 128</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/telephone.webp')] bg-left bg-no-repeat pl-[34px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="tel:+1-1-888-266-6917">US: +1 (1 888) 266-6917</a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/mail.webp')] bg-left bg-no-repeat pl-[34px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="mailto:office@vipestudio.com">office@vipestudio.com
+                                        </a>
+                                    </li>
+                                    <li
+                                        class="bg-[url('/assets/images/home.webp')] bg-left bg-no-repeat pl-[34px] text-white font-gilroy text-sm not-italic font-normal leading-normal hover:font-semibold">
+                                        <a href="https://www.google.com/maps/place/Srebarna+St+14,+1407+Promishlena+zona+Hladilnika,+Sofia,+Bulgaria/@42.660209,23.3164747,17z/data=!3m1!4b1!4m6!3m5!1s0x40aa845b4940b4ef:0x645426bf01c2673!8m2!3d42.6602051!4d23.3190496!16s%2Fg%2F11csm5f7r6?authuser=0&entry=ttu"
+                                            target="_blank">14 Srebarna, Sofia 1407, Bulgaria</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="min-h-[113px] w-full border-t border-t-[rgba(255,255,255,0.3)] flex items-center mt-6 lg:mt-0">
+            <div
+                class="max-w-[1344px] mx-auto px-3 w-full flex justify-between sm:flex-row flex-col gap-y-5 items-center sm:items-start mt-6 sm:mt-0">
+                <div>
+                    <p
+                        class="text-white font-gilroy text-sm not-italic font-normal leading-normal text-center sm:text-start">
+                        © Vipe Studio
+                        2016-2022</p>
+                    <div class="flex items-center">
+                        <p class="text-white font-gilroy text-sm not-italic font-normal leading-normal">Privacy</p>
+                        <div class="w-[1px] h-[14px] bg-white ml-2 mr-[6px]"></div>
+                        <p class="text-white font-gilroy text-sm not-italic font-normal leading-normal">Careers</p>
+                        <div class="w-[1px] h-[14px] bg-white ml-[7px] mr-[6px]"></div>
+                        <p class="text-white font-gilroy text-sm not-italic font-normal leading-normal">Media</p>
+                        <div class="w-[1px] h-[14px] bg-white ml-[6px] mr-[6px]"></div>
+                        <p class="text-white font-gilroy text-sm not-italic font-normal leading-normal">Client Area</p>
+                    </div>
+                </div>
+                <ul class="flex sm:gap-[17px] gap-3 mb-6 sm:mb-0">
+                    <li>
+                        <a class="w-[40px] h-[40px] rounded-[50%] bg-white flex justify-center items-center hover:scale-105 transition-all duration-300 ease-linear"
+                            href="https://github.com/" target="_blank">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1701_75)">
+                                    <path
+                                        d="M8.42233 21.003C8.42233 21.899 8.43233 22.756 8.43833 23.288C8.43946 23.4166 8.48073 23.5417 8.55639 23.6457C8.63206 23.7496 8.73832 23.8274 8.86033 23.868C10.9383 24.554 13.1773 24.586 15.2743 23.959L15.5663 23.872C15.7038 23.8309 15.8245 23.7467 15.9105 23.6319C15.9966 23.517 16.0435 23.3776 16.0443 23.234C16.0493 22.501 16.0613 21.217 16.0613 19.704C16.0613 18.332 15.5843 17.454 15.0303 16.997C18.4293 16.631 22.0003 15.387 22.0003 9.77004C22.0003 8.16004 21.4083 6.86004 20.4343 5.83604C20.5873 5.47004 21.1223 3.97004 20.2813 1.95804C20.2813 1.95804 19.0013 1.55504 16.0803 3.45804C14.834 3.12722 13.5498 2.96114 12.2603 2.96404C10.9623 2.96404 9.66333 3.12904 8.44133 3.45804C5.52033 1.57204 4.24033 1.95804 4.24033 1.95804C3.40033 3.97004 3.93433 5.47004 4.08733 5.83604C3.06736 6.8898 2.50458 8.30359 2.52133 9.77004C2.52133 15.368 6.07333 16.63 9.47233 16.997C9.03333 17.363 8.63233 18.003 8.49933 18.954C7.62033 19.338 5.42433 19.96 4.04933 17.747C3.76333 17.307 2.90333 16.228 1.70033 16.247C0.420334 16.265 1.18433 16.942 1.72033 17.217C2.36833 17.564 3.11333 18.863 3.28533 19.284C3.59133 20.107 4.58433 21.68 8.42233 21.004V21.003Z"
+                                        fill="black" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1701_75">
+                                        <rect width="24" height="24" fill="white" transform="translate(0 0.921875)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="w-[40px] h-[40px] rounded-[50%] bg-white flex justify-center items-center hover:scale-105 transition-all duration-300 ease-linear"
+                            href="https://in.linkedin.com/" target="_blank">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M4.5 6.92188C5.60457 6.92188 6.5 6.02644 6.5 4.92188C6.5 3.81731 5.60457 2.92188 4.5 2.92188C3.39543 2.92188 2.5 3.81731 2.5 4.92188C2.5 6.02644 3.39543 6.92188 4.5 6.92188Z"
+                                    fill="black" stroke="black" stroke-width="0.0833333" />
+                                <path
+                                    d="M2.5 9.92188H6.5V22.4219H2.5V9.92188ZM10.5 14.6719V22.4219H14V15.4219C14 14.1719 14.75 13.1719 16 13.1719C17.25 13.1719 18 14.4219 18 15.4219V22.4219H21.5V14.6719C21.5 13.1719 19.75 9.92188 16 9.92188C12.25 9.92188 10.5 13.1719 10.5 14.6719Z"
+                                    fill="black" stroke="black" stroke-width="0.0833333" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="w-[40px] h-[40px] rounded-[50%] bg-white flex justify-center items-center hover:scale-105 transition-all duration-300 ease-linear"
+                            href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+                            target="_blank">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.6435 5.85895C22.8085 6.22895 21.9115 6.47895 20.9685 6.59195C21.9415 6.00974 22.6694 5.09342 23.0165 4.01395C22.1023 4.55694 21.1018 4.93915 20.0585 5.14395C19.3569 4.39482 18.4276 3.89828 17.4148 3.73143C16.4021 3.56457 15.3626 3.73674 14.4577 4.2212C13.5529 4.70567 12.8333 5.47531 12.4107 6.41066C11.988 7.346 11.886 8.3947 12.1205 9.39395C10.2682 9.30095 8.45613 8.8195 6.80192 7.98086C5.14772 7.14221 3.68834 5.96511 2.5185 4.52595C2.1185 5.21595 1.8885 6.01595 1.8885 6.86795C1.88805 7.63495 2.07693 8.3902 2.43838 9.06669C2.79982 9.74318 3.32266 10.32 3.9605 10.746C3.22078 10.7224 2.49737 10.5225 1.8505 10.163V10.223C1.85043 11.2987 2.22253 12.3413 2.90368 13.174C3.58483 14.0066 4.53307 14.5779 5.5875 14.791C4.90128 14.9767 4.18184 15.004 3.4835 14.871C3.781 15.7966 4.3605 16.606 5.14087 17.1859C5.92124 17.7658 6.86342 18.0871 7.8355 18.105C6.18533 19.4004 4.14739 20.103 2.0495 20.1C1.67788 20.1001 1.30658 20.0784 0.9375 20.035C3.06698 21.4041 5.54584 22.1308 8.0775 22.128C16.6475 22.128 21.3325 15.03 21.3325 8.87395C21.3325 8.67395 21.3275 8.47195 21.3185 8.27195C22.2298 7.61293 23.0164 6.79685 23.6415 5.86195L23.6435 5.85895Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="w-[40px] h-[40px] rounded-[50%] bg-white flex justify-center items-center hover:scale-105 transition-all duration-300 ease-linear"
+                            href="https://www.facebook.com/" target="_blank">
+                            <svg width="11" height="23" viewBox="0 0 11 23" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1701_81)">
+                                    <path
+                                        d="M2.77006 22.9015V12.588H0.0429688V8.87466H2.77006V5.70298C2.77006 3.21065 4.38097 0.921875 8.09284 0.921875C9.59572 0.921875 10.707 1.06595 10.707 1.06595L10.6195 4.53358C10.6195 4.53358 9.48611 4.52255 8.24934 4.52255C6.91078 4.52255 6.69632 5.13941 6.69632 6.16324V8.87466H10.7259L10.5505 12.588H6.69632V22.9015H2.77006Z"
+                                        fill="black" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1701_81">
+                                        <rect width="10.77" height="21.9796" fill="white"
+                                            transform="translate(0 0.921875)" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="w-[40px] h-[40px] rounded-[50%] bg-white flex justify-center items-center hover:scale-105 transition-all duration-300 ease-linear"
+                            href="https://www.instagram.com/" target="_blank">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M11.9991 9.79767C10.2788 9.79767 8.87492 11.2016 8.87492 12.9219C8.87492 14.6422 10.2788 16.0461 11.9991 16.0461C13.7194 16.0461 15.1234 14.6422 15.1234 12.9219C15.1234 11.2016 13.7194 9.79767 11.9991 9.79767ZM21.3694 12.9219C21.3694 11.6281 21.3812 10.3461 21.3085 9.0547C21.2359 7.5547 20.8937 6.22345 19.7968 5.12658C18.6976 4.02736 17.3687 3.68751 15.8687 3.61486C14.5749 3.5422 13.2929 3.55392 12.0015 3.55392C10.7077 3.55392 9.4257 3.5422 8.13429 3.61486C6.63429 3.68751 5.30304 4.0297 4.20617 5.12658C3.10695 6.22579 2.7671 7.5547 2.69445 9.0547C2.62179 10.3485 2.63351 11.6305 2.63351 12.9219C2.63351 14.2133 2.62179 15.4977 2.69445 16.7891C2.7671 18.2891 3.10929 19.6203 4.20617 20.7172C5.30538 21.8164 6.63429 22.1563 8.13429 22.2289C9.42804 22.3016 10.7101 22.2899 12.0015 22.2899C13.2952 22.2899 14.5773 22.3016 15.8687 22.2289C17.3687 22.1563 18.6999 21.8141 19.7968 20.7172C20.896 19.618 21.2359 18.2891 21.3085 16.7891C21.3835 15.4977 21.3694 14.2156 21.3694 12.9219ZM11.9991 17.7289C9.33898 17.7289 7.1921 15.582 7.1921 12.9219C7.1921 10.2617 9.33898 8.11486 11.9991 8.11486C14.6593 8.11486 16.8062 10.2617 16.8062 12.9219C16.8062 15.582 14.6593 17.7289 11.9991 17.7289ZM17.003 9.04064C16.3819 9.04064 15.8804 8.53908 15.8804 7.91798C15.8804 7.29689 16.3819 6.79533 17.003 6.79533C17.6241 6.79533 18.1257 7.29689 18.1257 7.91798C18.1259 8.06546 18.097 8.21153 18.0406 8.34782C17.9843 8.48411 17.9016 8.60795 17.7973 8.71223C17.693 8.81652 17.5692 8.89921 17.4329 8.95556C17.2966 9.01191 17.1505 9.04082 17.003 9.04064Z"
+                                    fill="black" />
+                            </svg>
+
+                        </a>
+                    </li>
+                    <li>
+                        <a class="w-[40px] h-[40px] rounded-[50%] bg-white flex justify-center items-center hover:scale-105 transition-all duration-300 ease-linear"
+                            href="https://wordpress.com/" target="_blank">
+                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.891 8.70995C20.614 10.0324 20.992 11.5158 20.99 13.0229C20.9904 14.5962 20.5777 16.142 19.7933 17.5057C19.0089 18.8694 17.8801 20.0033 16.52 20.7939L19.266 12.8549C19.779 11.5729 19.95 10.5459 19.95 9.63595C19.9504 9.32633 19.9307 9.01702 19.891 8.70995ZM13.24 8.79695C13.583 8.78008 13.9252 8.75073 14.266 8.70895C14.751 8.64595 14.694 7.93395 14.21 7.95995C14.21 7.95995 12.747 8.07195 11.81 8.07195C10.923 8.07195 9.435 7.94695 9.435 7.94695C8.948 7.92295 8.885 8.65995 9.374 8.68495C9.374 8.68495 9.823 8.73695 10.312 8.75995L11.711 12.5979L9.736 18.497L6.462 8.77295C6.80543 8.75568 7.14825 8.728 7.49 8.68995C7.977 8.62695 7.92 7.91495 7.435 7.94295C7.435 7.94295 5.98 8.05795 5.04 8.05795C4.873 8.05795 4.675 8.05095 4.465 8.04495C6.093 5.64795 8.862 4.03495 12 4.03495C14.341 4.03495 16.471 4.92895 18.071 6.39495C18.033 6.39295 17.995 6.38695 17.954 6.38695C17.071 6.38695 16.444 7.15695 16.444 7.98295C16.444 8.72395 16.871 9.35195 17.327 10.0909C17.67 10.6919 18.069 11.4609 18.069 12.5719C18.069 13.3349 17.774 14.2339 17.384 15.4709L16.488 18.4579L13.238 8.78295L13.24 8.79695ZM12 22.0089C11.1403 22.0098 10.2849 21.8872 9.46 21.6449L12.157 13.8069L14.92 21.379C14.941 21.423 14.962 21.4639 14.985 21.5029C14.0258 21.8393 13.0165 22.0111 12 22.011V22.0089ZM3.01 13.0229C3.00854 11.7624 3.27368 10.5158 3.788 9.36495L8.075 21.1139C6.55646 20.3766 5.27611 19.2268 4.38039 17.7959C3.48468 16.3651 3.00978 14.711 3.01 13.0229ZM12 3.02295C6.487 3.02295 2 7.50995 2 13.0229C2 18.5359 6.487 23.0229 12 23.0229C17.513 23.0229 22 18.5359 22 13.0229C22 7.50995 17.513 3.02295 12 3.02295Z"
+                                    fill="black" />
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <span class="hidden relative overflow-hidden">sr only</span>
+    <script src="/assets/js/doc.js"></script>
+</body>
+
+</html>
